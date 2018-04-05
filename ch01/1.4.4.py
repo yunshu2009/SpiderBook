@@ -1,6 +1,5 @@
 #coding:utf-8
-'''
-服务进程(taskManager.py)(linux版)
+# 服务进程(taskManager.py)(linux版)
 
 import random,time,Queue
 from multiprocessing.managers import BaseManager
@@ -35,8 +34,6 @@ for i in range(10):
     print 'result is %s' %result.get(timeout=10)
 #关闭管理
 manager.shutdown()
-
-'''
 
 '''
 程序taskWorker.py代码(win/linux版)
